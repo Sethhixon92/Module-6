@@ -1,11 +1,25 @@
 <html>
+<head>
+<link rel="stylesheet" type="text/css" href="src/style.css" media="screen" />
+  <h1 style="text-align: center">Weather Board</h1>
+  
+</head>
 <main class="flex-row justify-space-between">
-    <div class="col-12 col-md-4"></div>
+    <div class="col-12 col-md-4">
+      <div class="card">
+        <h3 class="card-header text-uppercase">Search by City</h3>
+        <form id="user-form" class="clear-body">
+          <label class="form-label" for="username">City</label>
+          <input name='username' id="City" type="text" autofocus="true" class="form-input" />
+          <button type="submit" class="btn">Search</button>
+        </form>
+
+      </div>
+    </div>
 
     <div class="col-12 col-md-8"></div>
 </main>
 <body>
- <h1>Weather!</h1>
  
 <script src="./assests/js/homepage.js"></script>
   </body>
